@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+
+.edit {
+  border-radius: 4px;
+  background-color: #d9cd26;
+  color: #fff;
+  padding: 2px;
+  margin-right: 8px;
+  transition: 400ms ease;
+}
+.edit:hover{
+  transform: scale(1.2);
+}
+
+.delete {
+  border-radius:4px;
+  background-color: #e35e6b;
+  color: #fff;
+  padding: 2px;
+  transition: 400ms ease;
+
+}
+
+.delete:hover{
+  transform: scale(1.2);
+}
