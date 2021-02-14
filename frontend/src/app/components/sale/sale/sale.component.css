@@ -1,0 +1,47 @@
+mat-card {
+  margin-bottom: 2rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-form-field {
+  margin: 1rem 0;
+}
+
+.buttons {
+  margin-top: 3rem;
+}
+
+.buttons button:nth-child(1) {
+  margin-right: 2rem;
+}
+
+.calcular {
+  width: 30%;
+}
+
+.total {
+  padding: 1rem 8px;
+  background: rgba( 255, 255, 255, 0.60);
+  box-shadow: 0 2px 10px 0 rgba(103, 111, 221, 0.37);
+  backdrop-filter: blur( 4px);
+  -webkit-backdrop-filter: blur( 4px);
+  border-radius: 4px;
+}
+.total mat-label{
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1px;
+}
+.total input{
+  margin-top: 8px;
+  line-height: 1px;
+  font-weight: bold;
+  font-size: 18px;
+}

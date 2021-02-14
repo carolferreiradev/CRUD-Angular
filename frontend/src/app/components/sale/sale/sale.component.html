@@ -1,0 +1,33 @@
+<mat-card>
+  <mat-card-title>Ponto de Vendas</mat-card-title>
+  <form>
+    <mat-form-field>
+      <mat-label>Selecione um produto</mat-label>
+      <mat-select [(value)]="product">
+        <mat-option *ngFor="let product of products" [value]="product.id">{{product.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <p>PRODUTO SELECIONADO: {{product}}</p>
+      <input matInput disabled placeholder="Preço unitário" name="price" value="R$ 200,00">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput disabled placeholder="Estoque" name="estoque" value="120">
+    </mat-form-field>
+    <mat-input-field>
+      <mat-label>Quantidade</mat-label>
+      <input matInput type="number" placeholder="Seleciona a quantidade desejada" name="quantidadeVenda">
+    </mat-input-field>
+    <button class="calcular" mat-stroked-button color="accent">Calcular</button>
+    <mat-input-field class="total">
+      <mat-label>Total da Compra</mat-label>
+      <input matInput disabled placeholder="Total da Compra" name="total" value="R$ 2.500,00">
+    </mat-input-field>
+  </form>
+</mat-card>
+<mat-card>
+  <div class="buttons">
+    <button mat-raised-button color="primary">Finalizar Venda</button>
+    <button mat-raised-button>Cancelar</button>
+  </div>
+</mat-card>

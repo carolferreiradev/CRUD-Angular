@@ -24,7 +24,7 @@ export class HeaderComponent implements OnInit {
     return this.headerService.headerData.icon
   }
 
-  get url(): string{
+  get routeUrl(): string{
     return this.headerService.headerData.routeUrl
   }
 

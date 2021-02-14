@@ -20,6 +20,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
 
 // COMPONENTS
 import { AppComponent } from './app.component';
@@ -39,6 +40,7 @@ import localPt from '@angular/common/locales/pt';
 import {registerLocaleData} from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { SaleComponent } from './components/sale/sale/sale.component';
 
 registerLocaleData(localPt)
 
@@ -57,6 +59,7 @@ registerLocaleData(localPt)
     ProductRead2Component,
     ProductUpdateComponent,
     ProductDeleteComponent,
+    SaleComponent,
   ],
   imports: [
     BrowserModule,
@@ -74,7 +77,8 @@ registerLocaleData(localPt)
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatSelectModule
   ],
   providers: [{
     provide: LOCALE_ID,

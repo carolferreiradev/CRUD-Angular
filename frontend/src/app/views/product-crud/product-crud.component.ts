@@ -16,7 +16,6 @@ export class ProductCrudComponent implements OnInit {
       icon: 'storefront',
       routeUrl: '/products'
     }
-    console.log(headerService.headerData)
   }
 
   ngOnInit(): void {

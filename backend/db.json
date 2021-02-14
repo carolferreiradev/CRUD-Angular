@@ -3,17 +3,20 @@
     {
       "id": 2,
       "name": "Notebook Mac Pro",
-      "price": 12000.89
+      "price": 12000.89,
+      "quantity": "200"
     },
     {
       "id": 3,
       "name": "Samsung TV",
-      "price": "8999.99"
+      "price": "8999.99",
+      "quantity": 100
     },
     {
       "name": "Honda Civic 2021",
       "price": "125000000",
-      "id": 4
+      "id": 4,
+      "quantity": 100
     }
   ]
 }

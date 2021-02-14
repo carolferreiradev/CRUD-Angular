@@ -6,7 +6,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'//unica instancia do service na aplicação
 })
 export class HeaderService {
-  // BehaviorSubject -> emite um evento sempre que a classe é mudança semore que os dados são mudados
+  // BehaviorSubject -> emite um evento sempre que os dados são mudados
   private _headerData = new BehaviorSubject<HeaderData>({
     title: 'Início',
     icon: 'home',
@@ -15,7 +15,7 @@ export class HeaderService {
   
   constructor() { }
   // não sera criada uma nova instancia e sim alterados os dados dentro do HeaderData
-  // Para isso criatemos métodos GET e SET
+  // Para isso criaremos métodos GET e SET
 
   get headerData(): HeaderData{
     return this._headerData.value

@@ -1,3 +1,4 @@
+import { SaleComponent } from './components/sale/sale/sale.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -26,6 +27,10 @@ const routes: Routes = [{
 {
   path: "products/delete/:id",
   component: ProductDeleteComponent
+},
+{
+  path:"sale",
+  component: SaleComponent
 }
 
 ];

@@ -7,6 +7,9 @@
     <mat-form-field>
       <input matInput disabled [value]="product.price" name="price" placeholder="Preço">
     </mat-form-field>
+    <mat-form-field>
+      <input matInput disabled [value]="product.quantity" name="quantity" placeholder="Quantidade">
+    </mat-form-field>
   </form>
   <button mat-raised-button color="warn" (click)="deleteProduct()">
     Excluir
