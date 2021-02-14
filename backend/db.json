@@ -1,19 +1,19 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Preta",
-      "price": 5.89
-    },
-    {
       "id": 2,
       "name": "Notebook Mac Pro",
       "price": 12000.89
     },
     {
       "id": 3,
-      "name": "Samsung S20+",
-      "price": 5000.99
+      "name": "Samsung TV",
+      "price": "8999.99"
+    },
+    {
+      "name": "Honda Civic 2021",
+      "price": "125000000",
+      "id": 4
     }
   ]
 }

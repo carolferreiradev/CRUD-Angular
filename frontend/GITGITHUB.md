@@ -1,0 +1,1 @@
+Mais ouro tem sido minerado do pensamento dos homens do que ja foi retirado da terra
